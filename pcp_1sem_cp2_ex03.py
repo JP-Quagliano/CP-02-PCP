@@ -1,4 +1,4 @@
-# Entrada das notas
+# Entrada das notas - Thiago Nakano
 
 cp1 = float(input("Digite sua nota da CP1: "))
 cp2 = float(input("Digite sua nota da CP2: "))
@@ -17,3 +17,11 @@ if cp2 < menor_nota:
 if cp3 < menor_nota:
     menor_nota = cp3
  # print(f"menor nota: {menor_nota}") <--Utilizei para conferir meu codigo, se quiser pode apagar
+
+#Calculo da media - Leticia Aiko
+media = (((cp1 + cp2 + cp3 - menor_nota) + (sp1 + sp2)) / 4)*0.4 + gs * 0.6
+media_peso = media * 0.4
+
+#Mostrando a nota no sistema
+print(f"Sua media semestral e:{media:.1f}")
+print(f"Sua media com peso e:{media_peso:.1f}")
