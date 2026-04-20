@@ -12,7 +12,6 @@ def definir_taxa(parcelas):
     else:
         return 0.10
 
-
 def calcular_parcela(valor, taxa, parcelas):
     # formula price: PMT = PV * (i * (1+i)^n) / ((1+i)^n - 1)
     numerador = taxa * (1 + taxa)**parcelas
